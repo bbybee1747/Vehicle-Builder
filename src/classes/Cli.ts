@@ -2,7 +2,7 @@
 import inquirer from "inquirer";
 import Truck from "./Truck.js";
 import Car from "./Car.js";
-import Motorbike from "./Motorbike.js";
+import Motorbike from "../classes/Motorbike.js";
 import Wheel from "./Wheel.js";
 
 // define the Cli class
