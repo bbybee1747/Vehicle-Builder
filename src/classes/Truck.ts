@@ -3,8 +3,7 @@ import Vehicle from './Vehicle.js';
 import Motorbike from './Motorbike.js';
 import Car from './Car.js';
 import Wheel from './Wheel.js';
-import AbleToTow from '../../interfaces/AbleToTow.js';
-
+import AbleToTow from '../interfaces/AbleToTow.js';
 // TODO: The Truck class should extend the Vehicle class and should implement the AbleToTow interface
 // TODO: Declare properties of the Truck class
 // TODO: The properties should include vin, color, make, model, year, weight, top speed, wheels, and towing capacity
