@@ -1,8 +1,6 @@
 interface Driveable {
-
   started: boolean;
   currentSpeed: number;
-  
   start(): void;
   accelerate(change: number): void;
   decelerate(change: number): void;
