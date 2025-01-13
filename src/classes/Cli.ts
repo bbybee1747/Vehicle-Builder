@@ -417,7 +417,7 @@ class Cli {
                 if (this.vehicles[i] instanceof Motorbike) {
                   (this.vehicles[i] as Motorbike).wheelie();
                 } else {
-                  console.log('This vehicle cannot perform a wheelie'); 
+                  console.error('This vehicle cannot perform a wheelie'); 
                 }
             }
         } 
